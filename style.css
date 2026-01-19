@@ -16,6 +16,19 @@ body {
   cursor: pointer;
   transition: 2s;
 }
+.onesss {
+  background: linear-gradient(45deg, #f7e93f, #fb09b4, #9100f8);
+  cursor: pointer;
+  transition: 2s;
+  border-radius: 10000px;
+  padding: 12px 16px;
+  font-weight: 600;
+}
+.onesss:hover {
+  background: white;
+  color: black;
+  transition: 1s;
+}
 .primary-btn:hover {
   background: linear-gradient(45deg, #fd00be, #1ce669, #52167c);
   color: black;
