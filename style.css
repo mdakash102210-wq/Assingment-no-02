@@ -15,3 +15,42 @@ body {
   color: white;
   cursor: pointer;
 }
+.primary-btn:hover {
+  background: linear-gradient(45deg, #fd00be, #1ce669, #52167c);
+  color: black;
+  font-weight: 700;
+}
+.New {
+  padding: 8px 16px;
+  background: #00ff88;
+  border-radius: 10000px;
+  color: #1a0b2e;
+  font-weight: 600;
+}
+
+/* hero section css start */
+
+.hero {
+  background: #9100f8;
+  background: url(assets/hero-circle.png), url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position:
+    center 80px,
+    center;
+  background-size: 350px, cover;
+}
+.twondbtn {
+  background: transparent;
+  color: #1ce669;
+  border: 2px solid #1ce669;
+}
+@media screen and (max-width: 640px) {
+  .hero {
+    background-size:
+      280px 280px,
+      630px;
+    background-position:
+      center 80px,
+      center 110px;
+  }
+}
