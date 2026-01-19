@@ -1,3 +1,17 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+#Wave {
+  background: linear-gradient(to top, #f7e93f, #fb09b4, #9100f8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.primary-btn {
+  background: linear-gradient(45deg, #f7e93f, #fb09b4, #9100f8);
+  padding: 12px 16px;
+  border-radius: 10000px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
