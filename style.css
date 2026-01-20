@@ -42,6 +42,12 @@ body {
   font-weight: 600;
 }
 
+.foter-icon {
+  background: linear-gradient(to top, #f7e93f, #fb09b4, #9100f8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* hero section css start */
 
 .hero {
