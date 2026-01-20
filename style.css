@@ -72,6 +72,108 @@ footer {
   background: url(assets/footer-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.animation-container {
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+.animation {
+  height: 20px;
+  width: 20px;
+  background: #9100f8;
+  box-shadow: 0px 0px 50px rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  animation: assigntment-animation infinite ease;
+  animation-duration: 10s;
+}
+@keyframes assigntment-animation {
+  0% {
+    top: 0px;
+    left: 0%;
+  }
+  5% {
+    top: 30px;
+    left: 10%;
+  }
+  10% {
+    top: 0px;
+    left: 20%;
+  }
+  15% {
+    top: 30px;
+    left: 30%;
+  }
+  20% {
+    top: 0px;
+    left: 40%;
+  }
+  25% {
+    top: 30px;
+    left: 50%;
+  }
+  30% {
+    top: 0px;
+    left: 60%;
+  }
+  35% {
+    top: 30px;
+    left: 70%;
+  }
+  40% {
+    top: 0px;
+    left: 80%;
+  }
+  45% {
+    top: 30px;
+    left: 90%;
+  }
+  50% {
+    top: 0px;
+    left: 97%;
+  }
+  55% {
+    top: 30px;
+    left: 90%;
+  }
+  60% {
+    top: 0px;
+    left: 80%;
+  }
+  65% {
+    top: 30px;
+    left: 70%;
+  }
+  70% {
+    top: 0px;
+    left: 60%;
+  }
+  75% {
+    top: 30px;
+    left: 50%;
+  }
+  80% {
+    top: 0px;
+    left: 40%;
+  }
+  85% {
+    top: 30px;
+    left: 30%;
+  }
+  90% {
+    top: 0px;
+    left: 20%;
+  }
+  95% {
+    top: 30px;
+    left: 10%;
+  }
+  100% {
+    top: 0px;
+    left: 0%;
+  }
 }
 
 @media screen and (max-width: 640px) {
