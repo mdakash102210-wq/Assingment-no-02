@@ -68,6 +68,12 @@ body {
   background: pink;
   transition: 2s;
 }
+footer {
+  background: url(assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media screen and (max-width: 640px) {
   .hero {
     background-size:
