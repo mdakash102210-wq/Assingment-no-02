@@ -23,7 +23,21 @@ body {
   border-radius: 10000px;
   padding: 12px 16px;
   font-weight: 600;
+  position: relative;
+  animation: btn-animation 3s infinite ease;
 }
+@keyframes btn-animation {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -5px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 .onesss:hover {
   background: white;
   color: black;
@@ -63,6 +77,8 @@ body {
   background: transparent;
   color: #1ce669;
   border: 2px solid #1ce669;
+  position: relative;
+  animation: btn-animation 5s infinite ease;
 }
 .twondbtn:hover {
   background: pink;
